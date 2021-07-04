@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<body >
+    <div>
+        <h2 >PERSONAL DETAILS</h2>
+            <form  method="GET" action="">
+        <div style="padding: 10px;">
+            <label>Name: </label>
+            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+        </div>
+        <div style="padding: 10px;">
+          <div class="labels">
+            <label id="number-label" for="age">Age: </label>
+            <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age" required>
+          </div>
+        </div>
+        <div style="padding: 10px;">
+            <div class="labels">
+              <label id="name-label" for="name">First Name: </label>
+              <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your First name" required>
+            </div>
+          </div>
+          <div style="padding: 10px;">
+            <div class="labels">
+              <label id="name-label" for="name"> LastName: </label>
+              <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your last name" required>
+            </div>
+          </div>
+        <div style="padding: 10px;">
+            <label>Gender: </label>
+            <input autofocus type="text" name="gender" id="gender" class="input-field" placeholder="Enter your gender" required>
+        </div>
+        <div style="padding: 10px;">
+          <div class="labels">
+            <label id="dob-label" for="dob">D.O.B: </label>
+            <input type="date" name="dob" id="iddob" class="input-field" required>
+          </div>
+        </div>
+    
+        <div style="padding: 10px;">
+          <div class="labels">
+            <label for="address">Address Line1: </label>
+            <textarea id="comments" class="input-field" style="height:20px;resize:vertical;" name="address" placeholder="Door Number"></textarea>
+          </div>          
+        </div>
+        <div style="padding: 10px;">
+            <div class="labels">
+              <label for="address">Address Line2: </label>
+              <textarea id="comments" class="input-field" style="height:20px;resize:vertical;" name="address" placeholder="Street"></textarea>
+            </div>          
+          </div>
+          <div style="padding: 10px;">
+            <div class="labels">
+              <label for="address">Address Line3: </label>
+              <textarea id="comments" class="input-field" style="height:20px;resize:vertical;" name="address" placeholder="District"></textarea>
+            </div>          
+          </div>
+        
+        <div style="padding: 10px;">
+          <div class="labels">
+            <label for="pincode">Pincode: </label>
+           <input type="number" name="pincode" id="idpincode" class="input-field" style="height:20px;resize:vertical;" placeholder="6 - - - - -">
+        </div>
+	 <div style="padding: 10px;">
+          <div class="labels">
+            <label for="phonenumber">Phonenumber: </label>
+           <input type="number" name="phonenumber" id="phonenumber" class="input-field" style="height:20px;resize:vertical;" placeholder="- - - - - -">
+        </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+        <button id="reset" type="reset">Reset</button>
+      </form>
+    </div>
+</body>
+</html>
